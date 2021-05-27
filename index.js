@@ -11,9 +11,13 @@ function esItaliano(palabra) {
 
 function respuestaEsItaliano(esItaliano, apellido) {
   if (esItaliano(apellido)) {
-    console.log("Este apellido podría ser de cualquier país");
+    console.log(
+      `${apellido}... Este apellido podría ser de cualquier país. No crees?`
+    );
   } else {
-    console.log("Este apellido tiene muchas probabilidades de ser italiano");
+    console.log(
+      `${apellido}... Este apellido tiene muchas probabilidades de ser italiano. No crees?`
+    );
   }
 }
 
