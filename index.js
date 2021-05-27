@@ -1,5 +1,5 @@
-const apellido1 = "minúsculas";
-const apellido2 = "minúsculi";
+const apellido1 = "González";
+const apellido2 = "Gonzzali";
 
 function esItaliano(palabra) {
   if (palabra[palabra.length - 1] === "i") {
