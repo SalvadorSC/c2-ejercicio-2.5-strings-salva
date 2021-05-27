@@ -3,9 +3,9 @@ const apellido2 = "Gonzzali";
 
 function esItaliano(palabra) {
   if (palabra[palabra.length - 1] === "i") {
-    return true;
-  } else {
     return false;
+  } else {
+    return true;
   }
 }
 
